@@ -17,7 +17,7 @@ type Connection struct {
 // array of connections
 var connections []Connection
 
-var freeId int = 0
+var freeId = 0
 
 func Echo(ws *websocket.Conn) {
 	var err error
