@@ -2,11 +2,10 @@ package main
 
 import (
 	"fmt"
+	"golang.org/x/net/websocket"
 	"log"
 	"net/http"
 	"strconv"
-
-	"golang.org/x/net/websocket"
 )
 
 type Connection struct {
